@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+   .container {
+      max-width: 960px;
+   }
+   .tabs_info_item {
+      font-size: 16px;
+   }
+   .actor_item {
+      width: 45%;
+   }
+  .actor_item:nth-child(3n+1){
+      margin: 0 10px;
+   }
+   .actor_item:nth-child(3n){
+      margin: 0 10px;
+   }
+}
+
+@media (max-width: 992px) {
+   .container {
+      max-width: 740px;
+   }
+   .tabs_info {
+      flex-wrap: wrap;
+   }
+   .tabs_info_item{
+      flex-basis: 20%;
+      line-height: 2;
+   }
+   .full_content {
+      flex-wrap: wrap;
+   }
+   .tabs_content {
+      margin-bottom: 4%;
+   }
+   .text {
+      font-size: 14px;
+   }
+   .actors_list {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 768px) {
+   .container {
+      max-width: 540px;
+   }
+   .more {
+      display: none;
+   }
+   .tabs_info_item {
+      flex-basis: 33%;
+   }
+   .tabs_content {
+      margin-right: 0;
+   }
+}
+
+@media (max-width: 578px) {
+   .container {
+      width: 90%;
+   }
+   .header {
+      flex-wrap: wrap;
+   }
+   .search {
+      flex-basis: 100%;
+      order: 3;
+      margin-top: 5%;
+   }
+   .content {
+      flex-wrap: wrap;
+   }
+   .short_info {
+      margin-bottom: 5%;
+   }
+   .actors_list, .actors_title {
+      display: none;
+   }
+   .movie_info {
+      flex-wrap: wrap;
+   }
+   .play {
+      flex-basis: 100%;
+      margin-top: 10%;
+   }
+   .short_info {
+      margin-right: 0;
+   }
+   .button {
+      width: 100%;
+   }
+   .poster {
+      display: inline-block;
+      margin-top: -20%;
+      width: 100%;
+   }
+}
